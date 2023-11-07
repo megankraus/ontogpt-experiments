@@ -1,0 +1,27 @@
+---
+input_text: >-
+ "Treatment of Manifestations
+Medical Issues
+No therapy exists to prevent the multisystem and sometimes progressive organ involvement of BBS. Individuals with BBS require coordinated multidisciplinary care to formulate and 
+coordinate management and therapeutic interventions. Cone-rod dystrophy. Early educational planning should be based on the certainty of blindness. Instruction in the use of Braille,
+mobility training, adaptive living skills, and computing skills (including voice recognition and transcription software), as well as the use of large-print reading materials while 
+vision is still present, are crucial. Obesity. A healthful, reduced-calorie diet with restricted simple carbohydrate intake and regular aerobic exercise, such as walking, hiking, 
+biking, and swimming with adaptations for the blind, are recommended to control weight gain. Employment of a helper/partner to encourage exercise and appropriate diet may be 
+beneficial. Metabolic syndrome and the other obesity-related complications of BBS should be treated as in the general population. All individuals will benefit from these 
+lifestyle recommendations. Anosmia/hyposmia. Those with absent or reduced sense of smell should have alternative ways off detecting dangerous substances (e.g., spoiled food, smoke,
+gas). Renal disease, gastrointestinal and liver disease, hypothyroidism, and hypogonadism should be treated as in the general population and according to national guidelines of the
+various subspecialties. Anatomic abnormalities, including polydactyly, dental abnormalities, congenital heart disease, genitourinary malformations, and musculoskeletal abnormalities
+may require surgical correction."
+named_entities:
+  - id: MONDO:0008854
+    label: Bardet-biedl Syndrome 1
+  - id: MAXO:0000088
+    label: dietary intervention
+  - id: HP:0000819 
+    label: Diabetes mellitus
+extracted_object:
+  action_to_symptom:
+    - subject: MAXO:0000088
+      predicate: TREATS
+      object:
+        - HP:0000819
